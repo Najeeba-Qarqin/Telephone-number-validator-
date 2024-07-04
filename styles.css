@@ -82,3 +82,29 @@ header {
   background-color: lightblue;
   color: black;
 }
+
+@media (min-width: 700px) {
+  body {
+    height: 100vh;
+  }
+
+  .container {
+    width: 210px;
+  }
+
+  header {
+    font-size: 25px;
+  }
+
+  .container label {
+    font-size: 15px;
+  }
+
+  .container input {
+    padding: 10px 12px;
+  }
+
+  .container {
+    height: 450px;
+  }
+}
