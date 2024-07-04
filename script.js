@@ -15,3 +15,16 @@ checkBtn.addEventListener('click', () => {
     results.innerText = '';
   } numbervalid();
 });
+
+const numbervalid = () => {
+  const validnumbers = [
+    /^\d{3}-\d{3}-\d{4}$/,
+    /^1 \d{3}-\d{3}-\d{4}$/,
+    /^1 \d{3} \d{3} \d{4}$/,
+    /^1 \d{3}\d{3}\d{4}$/,
+    /^1 \(\d{3}\) \d{3}-\d{4}$/,
+    /^\d{10}$/,
+    /^\(\d{3}\)\d{3}-\d{4}$/,
+    /^1\(\d{3}\)\d{3}-\d{4}$/
+  ]
+};
