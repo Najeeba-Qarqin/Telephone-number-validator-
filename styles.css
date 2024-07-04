@@ -17,6 +17,7 @@ header {
   padding: 15px 20px;
   font-size: 15px;
   font-weight: 800;
+  text-shadow: 11px 11px 5px white;
 }
 
 .container {
@@ -26,6 +27,8 @@ header {
   height: 400px;
   width: 190px;
   border-radius: 30px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 50px black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,6 +93,7 @@ header {
 
   .container {
     width: 210px;
+    height: 450px;
   }
 
   header {
@@ -102,9 +106,5 @@ header {
 
   .container input {
     padding: 10px 12px;
-  }
-
-  .container {
-    height: 450px;
   }
 }
