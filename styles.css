@@ -32,3 +32,23 @@ header {
   justify-content: space-between;
   padding: 50px 5px;
 }
+
+.container label {
+  color: black;
+  margin: 20px 10px 5px;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.container input {
+  padding: 5px 12px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 8px;
+  width: 90%;
+}
+
+.container input:focus {
+  background-color: lightblue;
+  border: unset;
+}
