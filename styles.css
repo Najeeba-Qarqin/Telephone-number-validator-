@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+header {
+  margin: 15px;
+  padding: 15px 20px;
+  font-size: 15px;
+  font-weight: 800;
+  text-shadow: 11px 11px 5px white;
+}
+
+.container {
+  background: url(images/istockphoto-1502787671-612x612.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 190px;
+  border-radius: 30px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 50px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 5px;
+}
+
+.container label {
+  color: black;
+  margin: 20px 10px 5px;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.container input {
+  padding: 5px 12px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 8px;
+  width: 90%;
+}
+
+.container input:focus {
+  background-color: lightblue;
+  border: unset;
+}
+
+#results-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.button {
+  display: flex;
+  gap: 30px;
+}
+
+.button button {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px 10px;
+  background-color: black;
+  color: lightblue;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.button button:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+@media (min-width: 700px) {
+  body {
+    height: 100vh;
+  }
+
+  .container {
+    width: 210px;
+    height: 450px;
+  }
+
+  header {
+    font-size: 25px;
+  }
+
+  .container label {
+    font-size: 15px;
+  }
+
+  .container input {
+    padding: 10px 12px;
+  }
+}
