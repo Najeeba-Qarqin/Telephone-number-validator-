@@ -42,3 +42,9 @@ const numbervalid = () => {
     userInput.style.border = '2px solid red';
   }
 };
+
+clearBtn.addEventListener('click', () => {
+  userInput.value = '';
+  results.innerText = '';
+  userInput.style.border = '1px solid black';
+});
